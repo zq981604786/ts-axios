@@ -3,7 +3,7 @@
 # 这时，我们一般会进行对文章进行分段，比如通过 tiktoken 计算并分割，然后将各段发送给 api 进行总结，最后将各段的总结再进行一个全部的总结。
 # 如果，你用是 LangChain，他很好的帮我们处理了这个过程，使得我们编写代码变的非常简单。
 
-from langchain.document_loaders import UnstructuredFileLoader
+from langchain.document_loaders import   UnstructuredFileLoader
 from langchain.chains.summarize import load_summarize_chain
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 from langchain import OpenAI
